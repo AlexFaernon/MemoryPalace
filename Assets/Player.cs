@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Drawing;
 using UnityEngine;
 
 public class Player : MonoBehaviour
@@ -12,8 +13,27 @@ public class Player : MonoBehaviour
     [SerializeField] private Vector3 moveDirection = Vector3.forward;
     [SerializeField] private Vector3 moveSide = Vector3.right;
 
-    public Map Map = new Map(new[,]
-        {{true, true, true, true}, {true, true, true, true}, {true, true, true, true}, {true, true, true, true}});
+    public Map Map = new Map(
+        @"********************
+*###*##############*
+*###*###*####*****#*
+*###*##****##*###*#*
+***#######*#**#####*
+*#**######*##*###*#*
+*##*****##**#*****#*
+*######**#*######***
+*######*##*#*##*#*#*
+*#***##*#**#****#*##
+*#*#*#**##*#*##*#*#*
+*#*#*#####*######*#*
+*#*#**************#*
+*#*#########*####*#*
+*#*##*#***##*##*#*#*
+*#*##*#*#######***#*
+*#****#*#*##*##*###*
+*#*####*#*******#*#*
+*######*###########*
+********************", new Point(1,0));
     public GameObject Platform;
 
     private void Start()
@@ -22,11 +42,14 @@ public class Player : MonoBehaviour
         {
             for (var z = 0; z < Map.map.GetLength(0); z++)
             {
-                Instantiate(Platform, new Vector3(x, 0, z), new Quaternion());
+                if (Map.map[x,z])
+                {
+                    Instantiate(Platform, new Vector3(x, 0, z), new Quaternion());
+                }
             }
         }
         
-        GetComponent<Transform>().position = new Vector3(0,0.2f,0);
+        GetComponent<Transform>().position = Map.start;
     }
 
     private void Update()
@@ -57,10 +80,12 @@ public class Player : MonoBehaviour
 public class Map
 {
     public readonly bool[,] map;
+    public readonly Vector3 start;
 
-    public Map(bool[,] map)
+    public Map(string map, Point pos)
     {
-        this.map = map;
+        this.map = CreateMap(map);
+        start = new Vector3(pos.X, 0.2f, pos.Y);
     }
 
     public bool Check(Vector3 vector)
@@ -68,5 +93,15 @@ public class Map
         return vector.x >= 0 && vector.x < map.GetLength(0) &&
                vector.z >= 0 && vector.z < map.GetLength(1) &&
                map[(int) vector.x, (int) vector.z];
+    }
+    
+    private static bool[,] CreateMap(string map)
+    {
+        var lines = map.Split(new[] {'\r', '\n'}, StringSplitOptions.RemoveEmptyEntries);
+        var result = new bool[lines[0].Length, lines.Length];
+        for (var x = 0; x < lines[0].Length; x++)
+        for (var y = 0; y < lines.Length; y++)
+            result[x, y] = lines[y][x] == '#';
+        return result;
     }
 }
