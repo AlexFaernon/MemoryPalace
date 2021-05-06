@@ -7,6 +7,9 @@ using UnityEngine.EventSystems;
 public class DragItem : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, IEndDragHandler, IDragHandler
 {
     private RectTransform rectTransform;
+    public GameObject UI;
+    public GameObject Room;
+    public List<GameObject> list;
 
     private void Awake()
     {
@@ -15,7 +18,14 @@ public class DragItem : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, I
 
     public void OnPointerDown(PointerEventData eventData)
     {
-        Debug.Log("down");
+        if (eventData.button == PointerEventData.InputButton.Right)
+        {
+            var index = transform.GetSiblingIndex();
+            if (index == 1)
+                transform.SetSiblingIndex(2);
+            else
+                transform.SetSiblingIndex(1);
+        }
     }
 
     public void OnBeginDrag(PointerEventData eventData)
@@ -25,11 +35,23 @@ public class DragItem : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, I
 
     public void OnEndDrag(PointerEventData eventData)
     {
-        Debug.Log("end");
+        list = eventData.hovered;
+        foreach (var gameObject in eventData.hovered)
+        {
+            if (gameObject.CompareTag("board"))
+            {
+                transform.SetParent(UI.transform);
+                return;
+            }
+        }
+        transform.SetParent(Room.transform);
     }
 
     public void OnDrag(PointerEventData eventData)
     {
-        rectTransform.anchoredPosition += eventData.delta;
+        if (eventData.button == PointerEventData.InputButton.Left)
+        {
+            rectTransform.anchoredPosition += eventData.delta;
+        }
     }
 }

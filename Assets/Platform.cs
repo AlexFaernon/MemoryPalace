@@ -5,11 +5,6 @@ using UnityEngine;
 
 public class Platform : MonoBehaviour
 {
-    private void Start()
-    {
-        GetComponent<Renderer>().enabled = false;
-    }
-
     private void OnTriggerEnter(Collider other)
     {
         GetComponent<Renderer>().enabled = true;

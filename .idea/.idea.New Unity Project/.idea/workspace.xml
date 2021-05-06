@@ -20,20 +20,88 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5465587c-a34f-4561-9f66-67087e725e28" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/DragItem.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/DragItem.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/hi.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/hi.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/room.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/room.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/room.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/room.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/New Material.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/New Material.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/chair.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/chair.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/cover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/cover.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/figma.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/figma/3d.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/figma/3d.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/figma/3d_inactive.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/figma/3d_inactive.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/figma/Star.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/figma/Star.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/figma/board.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/figma/board.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/figma/close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/figma/close.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/figma/firework.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/figma/firework.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/figma/firework2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/figma/firework2.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/figma/hamburger.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/figma/hamburger.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/figma/isometric_inactive.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/figma/isometric_inactive.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/figma/isometriс.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/figma/isometriс.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/figma/lamp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/figma/lamp.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/figma/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/figma/logo.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/figma/phrase.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/figma/phrase.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/figma/play.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/figma/play.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/figma/playok.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/figma/playok.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/figma/settings.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/figma/settings.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/floor.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/floor.jpg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/interier.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/interier.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/interier_low_resolution.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/interier_low_resolution.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/picture.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/picture.jpg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/plant.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/plant.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/room.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/room.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/room_low_resolution.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/room_low_resolution.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/shkaf.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/shkaf.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/sofa.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/sofa.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/table.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/table.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/texture.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/texture.jpg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/interier2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/interier2.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/maze.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/maze.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/wordButton.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/wordButton.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.New Unity Project/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.New Unity Project/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.New Unity Project/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.New Unity Project/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.New Unity Project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.New Unity Project/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DragItem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/DragItem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PlatPref.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PlatPref.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Platform.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Platform.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Player.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/a.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/a.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/a.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/a.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/hi.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/hi.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/room.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/room.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +118,7 @@
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.test-framework@1.1.24/UnityEditor.TestRunner/TestRun/TestJobDataHolder.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Platform.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B0E795E4-8CF0-4D7A-9193-EA9447AF406A/58/72131811/PhysicsScene2D.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4D9F7249-F1DE-41E3-8466-8FEA10E9822F/62/c75998d6/Debug.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -57,12 +126,13 @@
         <option value="$PROJECT_DIR$/Assets/NewBehaviourScript.cs" />
         <option value="$PROJECT_DIR$/Assets/map.cs" />
         <option value="$PROJECT_DIR$/Assets/Map.cs" />
-        <option value="$PROJECT_DIR$/Assets/Platform.cs" />
         <option value="$PROJECT_DIR$/Assets/Begin.cs" />
         <option value="$PROJECT_DIR$/Assets/dragndrop.cs" />
         <option value="$PROJECT_DIR$/Assets/DropItem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Platform.cs" />
         <option value="$PROJECT_DIR$/Assets/Player.cs" />
         <option value="$PROJECT_DIR$/Assets/DragItem.cs" />
+        <option value="$PROJECT_DIR$/Assets/wordButton.cs" />
       </list>
     </option>
   </component>
@@ -90,10 +160,10 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor &amp; Play">
-    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="17688">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="17688" />
+      <option name="pid" />
       <option name="selectedOptions">
         <set />
       </option>
@@ -122,7 +192,10 @@
       <workItem from="1619194700193" duration="3870000" />
       <workItem from="1619275039784" duration="3664000" />
       <workItem from="1619431486019" duration="594000" />
-      <workItem from="1619453681328" duration="4618000" />
+      <workItem from="1619453681328" duration="4913000" />
+      <workItem from="1619884818545" duration="2523000" />
+      <workItem from="1620211648232" duration="1911000" />
+      <workItem from="1620297321839" duration="2599000" />
     </task>
     <servers />
   </component>
@@ -148,74 +221,78 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1397" height="303" key="GridCell.Tab.0.bottom" timestamp="1619458101174">
+    <state width="1397" height="303" key="GridCell.Tab.0.bottom" timestamp="1619889125172">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1397" height="303" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1619458101174" />
-    <state width="1397" height="303" key="GridCell.Tab.0.center" timestamp="1619458101174">
+    <state width="1397" height="303" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1619889125172" />
+    <state width="1397" height="303" key="GridCell.Tab.0.center" timestamp="1619889125171">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1397" height="303" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1619458101174" />
-    <state width="1397" height="303" key="GridCell.Tab.0.left" timestamp="1619458101174">
+    <state width="1397" height="303" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1619889125171" />
+    <state width="1397" height="303" key="GridCell.Tab.0.left" timestamp="1619889125171">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1397" height="303" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1619458101174" />
-    <state width="1397" height="303" key="GridCell.Tab.0.right" timestamp="1619458101174">
+    <state width="1397" height="303" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1619889125171" />
+    <state width="1397" height="303" key="GridCell.Tab.0.right" timestamp="1619889125172">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1397" height="303" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1619458101174" />
-    <state width="1397" height="303" key="GridCell.Tab.1.bottom" timestamp="1619458101175">
+    <state width="1397" height="303" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1619889125172" />
+    <state width="1397" height="303" key="GridCell.Tab.1.bottom" timestamp="1619889125172">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1397" height="303" key="GridCell.Tab.1.bottom/0.0.1440.860@0.0.1440.860" timestamp="1619458101175" />
-    <state width="1397" height="303" key="GridCell.Tab.1.center" timestamp="1619458101175">
+    <state width="1397" height="303" key="GridCell.Tab.1.bottom/0.0.1440.860@0.0.1440.860" timestamp="1619889125172" />
+    <state width="1397" height="303" key="GridCell.Tab.1.center" timestamp="1619889125172">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1397" height="303" key="GridCell.Tab.1.center/0.0.1440.860@0.0.1440.860" timestamp="1619458101175" />
-    <state width="1397" height="303" key="GridCell.Tab.1.left" timestamp="1619458101175">
+    <state width="1397" height="303" key="GridCell.Tab.1.center/0.0.1440.860@0.0.1440.860" timestamp="1619889125172" />
+    <state width="1397" height="303" key="GridCell.Tab.1.left" timestamp="1619889125172">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1397" height="303" key="GridCell.Tab.1.left/0.0.1440.860@0.0.1440.860" timestamp="1619458101175" />
-    <state width="1397" height="303" key="GridCell.Tab.1.right" timestamp="1619458101175">
+    <state width="1397" height="303" key="GridCell.Tab.1.left/0.0.1440.860@0.0.1440.860" timestamp="1619889125172" />
+    <state width="1397" height="303" key="GridCell.Tab.1.right" timestamp="1619889125172">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1397" height="303" key="GridCell.Tab.1.right/0.0.1440.860@0.0.1440.860" timestamp="1619458101175" />
-    <state width="1397" height="303" key="GridCell.Tab.2.bottom" timestamp="1619458101175">
+    <state width="1397" height="303" key="GridCell.Tab.1.right/0.0.1440.860@0.0.1440.860" timestamp="1619889125172" />
+    <state width="1397" height="303" key="GridCell.Tab.2.bottom" timestamp="1619889125172">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1397" height="303" key="GridCell.Tab.2.bottom/0.0.1440.860@0.0.1440.860" timestamp="1619458101175" />
-    <state width="1397" height="303" key="GridCell.Tab.2.center" timestamp="1619458101175">
+    <state width="1397" height="303" key="GridCell.Tab.2.bottom/0.0.1440.860@0.0.1440.860" timestamp="1619889125172" />
+    <state width="1397" height="303" key="GridCell.Tab.2.center" timestamp="1619889125172">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1397" height="303" key="GridCell.Tab.2.center/0.0.1440.860@0.0.1440.860" timestamp="1619458101175" />
-    <state width="1397" height="303" key="GridCell.Tab.2.left" timestamp="1619458101175">
+    <state width="1397" height="303" key="GridCell.Tab.2.center/0.0.1440.860@0.0.1440.860" timestamp="1619889125172" />
+    <state width="1397" height="303" key="GridCell.Tab.2.left" timestamp="1619889125172">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1397" height="303" key="GridCell.Tab.2.left/0.0.1440.860@0.0.1440.860" timestamp="1619458101175" />
-    <state width="1397" height="303" key="GridCell.Tab.2.right" timestamp="1619458101175">
+    <state width="1397" height="303" key="GridCell.Tab.2.left/0.0.1440.860@0.0.1440.860" timestamp="1619889125172" />
+    <state width="1397" height="303" key="GridCell.Tab.2.right" timestamp="1619889125172">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1397" height="303" key="GridCell.Tab.2.right/0.0.1440.860@0.0.1440.860" timestamp="1619458101175" />
-    <state width="1397" height="303" key="GridCell.Tab.3.bottom" timestamp="1619458101175">
+    <state width="1397" height="303" key="GridCell.Tab.2.right/0.0.1440.860@0.0.1440.860" timestamp="1619889125172" />
+    <state width="1397" height="303" key="GridCell.Tab.3.bottom" timestamp="1619889125173">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1397" height="303" key="GridCell.Tab.3.bottom/0.0.1440.860@0.0.1440.860" timestamp="1619458101175" />
-    <state width="1397" height="303" key="GridCell.Tab.3.center" timestamp="1619458101175">
+    <state width="1397" height="303" key="GridCell.Tab.3.bottom/0.0.1440.860@0.0.1440.860" timestamp="1619889125173" />
+    <state width="1397" height="303" key="GridCell.Tab.3.center" timestamp="1619889125173">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1397" height="303" key="GridCell.Tab.3.center/0.0.1440.860@0.0.1440.860" timestamp="1619458101175" />
-    <state width="1397" height="303" key="GridCell.Tab.3.left" timestamp="1619458101175">
+    <state width="1397" height="303" key="GridCell.Tab.3.center/0.0.1440.860@0.0.1440.860" timestamp="1619889125173" />
+    <state width="1397" height="303" key="GridCell.Tab.3.left" timestamp="1619889125173">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1397" height="303" key="GridCell.Tab.3.left/0.0.1440.860@0.0.1440.860" timestamp="1619458101175" />
-    <state width="1397" height="303" key="GridCell.Tab.3.right" timestamp="1619458101175">
+    <state width="1397" height="303" key="GridCell.Tab.3.left/0.0.1440.860@0.0.1440.860" timestamp="1619889125173" />
+    <state width="1397" height="303" key="GridCell.Tab.3.right" timestamp="1619889125173">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1397" height="303" key="GridCell.Tab.3.right/0.0.1440.860@0.0.1440.860" timestamp="1619458101175" />
-    <state x="487" y="154" key="RiderGenerateDialog" timestamp="1619459109169">
+    <state width="1397" height="303" key="GridCell.Tab.3.right/0.0.1440.860@0.0.1440.860" timestamp="1619889125173" />
+    <state x="487" y="154" key="RiderGenerateDialog" timestamp="1620301869936">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="487" y="154" key="RiderGenerateDialog/0.0.1440.860@0.0.1440.860" timestamp="1619459109169" />
+    <state x="487" y="154" key="RiderGenerateDialog/0.0.1440.860@0.0.1440.860" timestamp="1620301869936" />
+    <state x="92" y="92" width="1256" height="676" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1620212382158">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="92" y="92" width="1256" height="676" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1440.860@0.0.1440.860" timestamp="1620212382158" />
     <state x="383" y="180" width="672" height="678" key="search.everywhere.popup" timestamp="1619195949502">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
@@ -226,13 +303,13 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Assets/Player.cs</url>
-          <line>98</line>
+          <line>105</line>
           <properties documentPath="C:\Users\сына\MyFirstGame\New Unity Project\Assets\Player.cs" initialLine="95">
             <startOffsets>
-              <option value="2824" />
+              <option value="3303" />
             </startOffsets>
             <endOffsets>
-              <option value="2825" />
+              <option value="3304" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="2" />

@@ -38,18 +38,25 @@ public class Player : MonoBehaviour
 
     private void Start()
     {
+        GetComponent<Transform>().position = Map.start;
         for (var x = 0; x < Map.map.GetLength(0); x++)
         {
             for (var z = 0; z < Map.map.GetLength(0); z++)
             {
                 if (Map.map[x,z])
                 {
-                    Instantiate(Platform, new Vector3(x, 0, z), new Quaternion());
+                    var instantiate = Instantiate(Platform, new Vector3(x, 0, z), new Quaternion());
+                    var plat = instantiate.transform.Find("Platform").gameObject;
+                    var playerCoord = GetComponent<Transform>().position;
+                    var platformCoord = instantiate.GetComponent<Transform>().position;
+                    if ((platformCoord - playerCoord).magnitude > 3)
+                    {
+                        Debug.Log("ok");
+                        plat.GetComponent<Renderer>().enabled = false;
+                    } 
                 }
             }
         }
-        
-        GetComponent<Transform>().position = Map.start;
     }
 
     private void Update()
