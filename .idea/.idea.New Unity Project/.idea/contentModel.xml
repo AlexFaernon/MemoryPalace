@@ -20,7 +20,7 @@
             </e>
           </e>
         </e>
-        <e p="wordButton.cs" t="Include" />
+        <e p="SceneChanger.cs" t="Include" />
       </e>
       <e p="New Unity Project.sln" t="IncludeFlat" />
       <e p="obj" t="ExcludeRecursive" />

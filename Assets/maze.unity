@@ -397,7 +397,7 @@ SphereCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 3
+  m_Radius: 5
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &2106690011
 MeshRenderer:
@@ -481,6 +481,7 @@ MonoBehaviour:
   moveDirection: {x: 0, y: 0, z: 1}
   moveSide: {x: 1, y: 0, z: 0}
   Platform: {fileID: 6934061818307394349, guid: d64db4c281fad5e4da20ce6a79611968, type: 3}
+  ExitPlatform: {fileID: 2580534429083934634, guid: a4c12f4cebc096e42bf4934a81bcb80e, type: 3}
 --- !u!54 &2106690015
 Rigidbody:
   m_ObjectHideFlags: 0

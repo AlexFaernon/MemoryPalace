@@ -20,88 +20,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5465587c-a34f-4561-9f66-67087e725e28" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/New Material.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/New Material.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/chair.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/chair.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/cover.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/cover.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/figma.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/figma/3d.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/figma/3d.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/figma/3d_inactive.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/figma/3d_inactive.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/figma/Star.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/figma/Star.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/figma/board.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/figma/board.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/figma/close.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/figma/close.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/figma/firework.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/figma/firework.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/figma/firework2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/figma/firework2.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/figma/hamburger.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/figma/hamburger.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/figma/isometric_inactive.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/figma/isometric_inactive.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/figma/isometriс.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/figma/isometriс.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/figma/lamp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/figma/lamp.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/figma/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/figma/logo.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/figma/phrase.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/figma/phrase.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/figma/play.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/figma/play.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/figma/playok.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/figma/playok.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/figma/settings.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/figma/settings.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/floor.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/floor.jpg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/interier.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/interier.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/interier_low_resolution.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/interier_low_resolution.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/picture.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/picture.jpg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/plant.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/plant.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/room.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/room.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/room_low_resolution.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/room_low_resolution.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/shkaf.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/shkaf.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/sofa.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/sofa.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/table.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/table.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/texture.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/texture.jpg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/interier2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/interier2.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/maze.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/maze.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/wordButton.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/wordButton.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SceneChanger.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SceneChanger.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/exitPlatMaterial.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/exitPlatMaterial.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/exitPlatform.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/exitPlatform.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/maze.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/maze/LightingData.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/maze/LightingData.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/maze/ReflectionProbe-0.exr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/maze/ReflectionProbe-0.exr.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/platMaterial.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/platMaterial.mat.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.New Unity Project/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.New Unity Project/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.New Unity Project/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.New Unity Project/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.New Unity Project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.New Unity Project/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DragItem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/DragItem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlatPref.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PlatPref.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Platform.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Platform.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/New Material.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/New Material.mat.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Player.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/a.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/a.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/hi.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/hi.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/maze.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/maze.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/room.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/room.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/wordButton.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/wordButton.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,6 +57,7 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6AF207EC-D210-4462-8913-F7CC589986AE/bc/de951636/Input.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.9/Editor/UserInterface/ToolbarButton.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B0E795E4-8CF0-4D7A-9193-EA9447AF406A/a9/dad98f92/Physics2D.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/SceneChanger.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.test-framework@1.1.24/UnityEditor.TestRunner/TestRun/TestJobDataHolder.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Platform.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B0E795E4-8CF0-4D7A-9193-EA9447AF406A/58/72131811/PhysicsScene2D.cs" root0="SKIP_HIGHLIGHTING" />
@@ -130,9 +73,10 @@
         <option value="$PROJECT_DIR$/Assets/dragndrop.cs" />
         <option value="$PROJECT_DIR$/Assets/DropItem.cs" />
         <option value="$PROJECT_DIR$/Assets/Platform.cs" />
-        <option value="$PROJECT_DIR$/Assets/Player.cs" />
         <option value="$PROJECT_DIR$/Assets/DragItem.cs" />
         <option value="$PROJECT_DIR$/Assets/wordButton.cs" />
+        <option value="$PROJECT_DIR$/Assets/Player.cs" />
+        <option value="$PROJECT_DIR$/Assets/SceneChanger.cs" />
       </list>
     </option>
   </component>
@@ -195,7 +139,8 @@
       <workItem from="1619453681328" duration="4913000" />
       <workItem from="1619884818545" duration="2523000" />
       <workItem from="1620211648232" duration="1911000" />
-      <workItem from="1620297321839" duration="2599000" />
+      <workItem from="1620297321839" duration="3333000" />
+      <workItem from="1620468967967" duration="4206000" />
     </task>
     <servers />
   </component>
@@ -297,24 +242,5 @@
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="383" y="180" width="672" height="678" key="search.everywhere.popup/0.0.1440.860@0.0.1440.860" timestamp="1619195949502" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/Player.cs</url>
-          <line>105</line>
-          <properties documentPath="C:\Users\сына\MyFirstGame\New Unity Project\Assets\Player.cs" initialLine="95">
-            <startOffsets>
-              <option value="3303" />
-            </startOffsets>
-            <endOffsets>
-              <option value="3304" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

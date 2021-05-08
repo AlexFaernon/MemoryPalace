@@ -1,8 +1,7 @@
 using System;
-using System.Collections;
-using System.Collections.Generic;
 using System.Drawing;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour
 {
@@ -12,6 +11,9 @@ public class Player : MonoBehaviour
     [SerializeField] private KeyCode keyRight = KeyCode.D;
     [SerializeField] private Vector3 moveDirection = Vector3.forward;
     [SerializeField] private Vector3 moveSide = Vector3.right;
+    public GameObject Platform;
+    public GameObject ExitPlatform;
+    private const float playerHeight = 0.65f;
 
     public Map Map = new Map(
         @"********************
@@ -33,27 +35,28 @@ public class Player : MonoBehaviour
 *#****#*#*##*##*###*
 *#*####*#*******#*#*
 *######*###########*
-********************", new Point(1,0));
-    public GameObject Platform;
+********************", new Point(2,2), new Point(19,9));
 
     private void Start()
     {
-        GetComponent<Transform>().position = Map.start;
+        GetComponent<Transform>().position = new Vector3(Map.start.X, playerHeight, Map.start.Y);
         for (var x = 0; x < Map.map.GetLength(0); x++)
         {
             for (var z = 0; z < Map.map.GetLength(0); z++)
             {
                 if (Map.map[x,z])
                 {
+                    if (Map.exit.X == x && Map.exit.Y == z)
+                    {
+                        Instantiate(ExitPlatform, new Vector3(x, 0, z), new Quaternion());
+                        continue;
+                    }
                     var instantiate = Instantiate(Platform, new Vector3(x, 0, z), new Quaternion());
                     var plat = instantiate.transform.Find("Platform").gameObject;
                     var playerCoord = GetComponent<Transform>().position;
                     var platformCoord = instantiate.GetComponent<Transform>().position;
-                    if ((platformCoord - playerCoord).magnitude > 3)
-                    {
-                        Debug.Log("ok");
-                        plat.GetComponent<Renderer>().enabled = false;
-                    } 
+                    if (!((platformCoord - playerCoord).magnitude > 3)) continue;
+                    plat.GetComponent<Renderer>().enabled = false;
                 }
             }
         }
@@ -64,22 +67,34 @@ public class Player : MonoBehaviour
         if (Input.GetKeyDown(keyForward))
         {
             if (Map.Check(GetComponent<Transform>().position + moveDirection))
+            {
                 GetComponent<Transform>().position += moveDirection;
+                Map.IfExitLeaveScene(GetComponent<Transform>().position);
+            }
         }
         if (Input.GetKeyDown(keyBackward))
         {
             if (Map.Check(GetComponent<Transform>().position - moveDirection))
+            {
                 GetComponent<Transform>().position -= moveDirection;
+                Map.IfExitLeaveScene(GetComponent<Transform>().position);
+            }
         }
         if (Input.GetKeyDown(keyRight))
         {
             if (Map.Check(GetComponent<Transform>().position + moveSide))
+            {
                 GetComponent<Transform>().position += moveSide;
+                Map.IfExitLeaveScene(GetComponent<Transform>().position);
+            }
         }
         if (Input.GetKeyDown(keyLeft))
         {
             if (Map.Check(GetComponent<Transform>().position - moveSide))
+            {
                 GetComponent<Transform>().position -= moveSide;
+                Map.IfExitLeaveScene(GetComponent<Transform>().position);
+            }
         }
     }
 }
@@ -87,12 +102,17 @@ public class Player : MonoBehaviour
 public class Map
 {
     public readonly bool[,] map;
-    public readonly Vector3 start;
+    public readonly Point start;
+    public readonly Point exit;
 
-    public Map(string map, Point pos)
+    public Map(string map, Point start, Point exit)
     {
         this.map = CreateMap(map);
-        start = new Vector3(pos.X, 0.2f, pos.Y);
+        this.start = start;
+        this.exit = exit;
+        
+        if (!this.map[exit.X, exit.Y])
+            throw new ArgumentException();
     }
 
     public bool Check(Vector3 vector)
@@ -101,7 +121,7 @@ public class Map
                vector.z >= 0 && vector.z < map.GetLength(1) &&
                map[(int) vector.x, (int) vector.z];
     }
-    
+
     private static bool[,] CreateMap(string map)
     {
         var lines = map.Split(new[] {'\r', '\n'}, StringSplitOptions.RemoveEmptyEntries);
@@ -110,5 +130,13 @@ public class Map
         for (var y = 0; y < lines.Length; y++)
             result[x, y] = lines[y][x] == '#';
         return result;
+    }
+
+    public void IfExitLeaveScene(Vector3 position)
+    {
+        if (new Point((int) position.x, (int) position.z) == exit)
+        {
+            SceneManager.LoadScene("room");
+        }
     }
 }
