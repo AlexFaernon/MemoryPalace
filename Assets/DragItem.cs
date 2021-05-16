@@ -6,6 +6,7 @@ using UnityEngine.EventSystems;
 
 public class DragItem : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, IEndDragHandler, IDragHandler
 {
+    [SerializeField] private Canvas canvas;
     private RectTransform rectTransform;
     public GameObject UI;
     public GameObject Room;
@@ -51,7 +52,7 @@ public class DragItem : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, I
     {
         if (eventData.button == PointerEventData.InputButton.Left)
         {
-            rectTransform.anchoredPosition += eventData.delta;
+            rectTransform.anchoredPosition += eventData.delta / canvas.scaleFactor;
         }
     }
 }
