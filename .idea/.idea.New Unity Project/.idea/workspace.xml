@@ -20,30 +20,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5465587c-a34f-4561-9f66-67087e725e28" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/SceneChanger.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/SceneChanger.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/exitPlatMaterial.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/exitPlatMaterial.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/exitPlatform.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/exitPlatform.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/maze.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/maze/LightingData.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/maze/LightingData.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/maze/ReflectionProbe-0.exr" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/maze/ReflectionProbe-0.exr.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/platMaterial.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/platMaterial.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ButtonPhrase.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ButtonPhrase.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ChangeWord.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ChangeWord.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.New Unity Project/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.New Unity Project/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.New Unity Project/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.New Unity Project/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.New Unity Project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.New Unity Project/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/New Material.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/New Material.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DragItem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/DragItem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/NewBehaviourScript.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/NewBehaviourScript.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Player.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/maze.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/maze.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SceneChanger.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SceneChanger.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/room.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/room.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/wordButton.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/wordButton.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,29 +43,37 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6AF207EC-D210-4462-8913-F7CC589986AE/bc/de951636/Input.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.9/Editor/UserInterface/ToolbarButton.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4D9F7249-F1DE-41E3-8466-8FEA10E9822F/04/4149930e/LoadSceneMode.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B0E795E4-8CF0-4D7A-9193-EA9447AF406A/a9/dad98f92/Physics2D.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/SceneChanger.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.test-framework@1.1.24/UnityEditor.TestRunner/TestRun/TestJobDataHolder.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4D9F7249-F1DE-41E3-8466-8FEA10E9822F/56/df29350a/SceneManager.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Platform.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B0E795E4-8CF0-4D7A-9193-EA9447AF406A/58/72131811/PhysicsScene2D.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6AF207EC-D210-4462-8913-F7CC589986AE/bc/de951636/Input.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.test-framework@1.1.24/UnityEditor.TestRunner/TestRun/TestJobDataHolder.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://E:/Program Files/Unity/Hub/2020.3.3f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/EventSystem/EventSystem.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ChangeWord.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4D9F7249-F1DE-41E3-8466-8FEA10E9822F/62/c75998d6/Debug.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ButtonPhrase.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/NewBehaviourScript.cs" />
         <option value="$PROJECT_DIR$/Assets/map.cs" />
         <option value="$PROJECT_DIR$/Assets/Map.cs" />
         <option value="$PROJECT_DIR$/Assets/Begin.cs" />
         <option value="$PROJECT_DIR$/Assets/dragndrop.cs" />
         <option value="$PROJECT_DIR$/Assets/DropItem.cs" />
         <option value="$PROJECT_DIR$/Assets/Platform.cs" />
-        <option value="$PROJECT_DIR$/Assets/DragItem.cs" />
         <option value="$PROJECT_DIR$/Assets/wordButton.cs" />
+        <option value="$PROJECT_DIR$/Assets/NewBehaviourScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/DontDeleteCanvas.cs" />
+        <option value="$PROJECT_DIR$/Assets/DragItem.cs" />
         <option value="$PROJECT_DIR$/Assets/Player.cs" />
         <option value="$PROJECT_DIR$/Assets/SceneChanger.cs" />
+        <option value="$PROJECT_DIR$/Assets/ButtonPhrase.cs" />
+        <option value="$PROJECT_DIR$/Assets/ChangeWord.cs" />
       </list>
     </option>
   </component>
@@ -141,6 +138,7 @@
       <workItem from="1620211648232" duration="1911000" />
       <workItem from="1620297321839" duration="3333000" />
       <workItem from="1620468967967" duration="4206000" />
+      <workItem from="1621170598525" duration="9151000" />
     </task>
     <servers />
   </component>
@@ -234,6 +232,10 @@
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="487" y="154" key="RiderGenerateDialog/0.0.1440.860@0.0.1440.860" timestamp="1620301869936" />
+    <state x="92" y="92" width="1256" height="676" key="VCS.FileHistoryDialog" timestamp="1621175072363">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="92" y="92" width="1256" height="676" key="VCS.FileHistoryDialog/0.0.1440.860@0.0.1440.860" timestamp="1621175072363" />
     <state x="92" y="92" width="1256" height="676" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1620212382158">
       <screen x="0" y="0" width="1440" height="860" />
     </state>

@@ -1,10 +1,17 @@
+using System;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class SceneChanger : MonoBehaviour
 {
-    public static void ChangeToMaze()
+    public List<GameObject> toEnable;
+    public void ChangeToMaze()
     {
-        SceneManager.LoadScene("maze");
+        foreach (var gameObject in toEnable)
+        {
+            gameObject.SetActive(true);
+        }
+        SceneManager.LoadScene("maze", LoadSceneMode.Additive);
     }
 }

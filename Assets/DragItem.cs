@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
-public class DragItem : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, IEndDragHandler, IDragHandler
+public class DragItem : MonoBehaviour, IPointerDownHandler, IEndDragHandler, IDragHandler
 {
     [SerializeField] private Canvas canvas;
     private RectTransform rectTransform;
@@ -27,11 +27,6 @@ public class DragItem : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, I
             else
                 transform.SetSiblingIndex(1);
         }
-    }
-
-    public void OnBeginDrag(PointerEventData eventData)
-    {
-        Debug.Log("begin");
     }
 
     public void OnEndDrag(PointerEventData eventData)
