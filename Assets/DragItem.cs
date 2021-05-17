@@ -10,7 +10,7 @@ public class DragItem : MonoBehaviour, IPointerDownHandler, IEndDragHandler, IDr
     private RectTransform rectTransform;
     public GameObject UI;
     public GameObject Room;
-    public List<GameObject> list;
+    private bool isOnLowerLayer = false;
 
     private void Awake()
     {
@@ -21,22 +21,24 @@ public class DragItem : MonoBehaviour, IPointerDownHandler, IEndDragHandler, IDr
     {
         if (eventData.button == PointerEventData.InputButton.Right)
         {
-            var index = transform.GetSiblingIndex();
-            if (index == 1)
-                transform.SetSiblingIndex(2);
+            var siblingsCount = transform.parent.childCount;
+            if (isOnLowerLayer)
+                transform.SetSiblingIndex(siblingsCount - 1);
             else
                 transform.SetSiblingIndex(1);
+            isOnLowerLayer = !isOnLowerLayer;
         }
     }
 
     public void OnEndDrag(PointerEventData eventData)
     {
-        list = eventData.hovered;
+        //TODO пофиксить пропаданаие с доски
         foreach (var gameObject in eventData.hovered)
         {
             if (gameObject.CompareTag("board"))
             {
                 transform.SetParent(UI.transform);
+                transform.SetSiblingIndex(1);
                 return;
             }
         }
