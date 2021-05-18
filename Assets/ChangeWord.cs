@@ -10,5 +10,6 @@ public class ChangeWord : MonoBehaviour
         var textToChange = ButtonToChange.transform.GetChild(0).gameObject;
         var text = transform.GetChild(0).gameObject;
         textToChange.GetComponent<Text>().text = text.GetComponent<Text>().text;
+        textToChange.GetComponent<Text>().color = Color.black;
     }
 }
