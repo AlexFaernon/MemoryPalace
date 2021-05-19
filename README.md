@@ -1,4 +1,4 @@
-# Maze
+# Memory Palace
 <h3>Название проекта:</h3> Memory Palace
 
 <h3>Команда:</h3> АТ-02, 10’cent Team.
