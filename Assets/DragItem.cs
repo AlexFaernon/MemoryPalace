@@ -1,20 +1,36 @@
 using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
-public class DragItem : MonoBehaviour, IPointerDownHandler, IEndDragHandler, IDragHandler
+public class DragItem : MonoBehaviour, IPointerDownHandler, IDragHandler
 {
     [SerializeField] private Canvas canvas;
     private RectTransform rectTransform;
-    public GameObject UI;
+    public GameObject Board;
     public GameObject Room;
-    private bool isOnLowerLayer = false;
+    private bool isOnLowerLayer;
+    private bool isHoverOnBoard;
+    private bool isOnBoard;
 
     private void Awake()
     {
         rectTransform = GetComponent<RectTransform>();
+    }
+
+    public void Update()
+    {
+        //TODO пофиксить пропаданаие с доски
+        if (isHoverOnBoard && !isOnBoard)
+        {
+            transform.SetParent(Board.transform);
+            transform.SetSiblingIndex(1);
+            isOnBoard = true;
+            return;
+        }
+        
+        if (isHoverOnBoard) return;
+        isOnBoard = false;
+        transform.SetParent(Room.transform);
     }
 
     public void OnPointerDown(PointerEventData eventData)
@@ -30,26 +46,29 @@ public class DragItem : MonoBehaviour, IPointerDownHandler, IEndDragHandler, IDr
         }
     }
 
-    public void OnEndDrag(PointerEventData eventData)
-    {
-        //TODO пофиксить пропаданаие с доски
-        foreach (var gameObject in eventData.hovered)
-        {
-            if (gameObject.CompareTag("board"))
-            {
-                transform.SetParent(UI.transform);
-                transform.SetSiblingIndex(1);
-                return;
-            }
-        }
-        transform.SetParent(Room.transform);
-    }
-
     public void OnDrag(PointerEventData eventData)
     {
         if (eventData.button == PointerEventData.InputButton.Left)
         {
             rectTransform.anchoredPosition += eventData.delta / canvas.scaleFactor;
+        }
+    }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        Debug.Log("on");
+        if (other.gameObject.CompareTag("board"))
+        {
+            isHoverOnBoard = true;
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D other)
+    {
+        Debug.Log("off");
+        if (other.gameObject.CompareTag("board"))
+        {
+            isHoverOnBoard = false;
         }
     }
 }

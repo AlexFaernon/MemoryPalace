@@ -40,6 +40,7 @@ public class Player : MonoBehaviour
     private void Start()
     {
         SceneManager.SetActiveScene(SceneManager.GetSceneByName("maze"));
+        Cursor.lockState = CursorLockMode.Locked;
         GetComponent<Transform>().position = new Vector3(Map.start.X, playerHeight, Map.start.Y);
         for (var x = 0; x < Map.map.GetLength(0); x++)
         {
@@ -137,6 +138,7 @@ public class Map
     {
         if (new Point((int) position.x, (int) position.z) == exit)
         {
+            Cursor.lockState = CursorLockMode.None;
             SceneManager.UnloadSceneAsync(SceneManager.GetActiveScene());
         }
     }
