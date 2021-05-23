@@ -19,7 +19,6 @@ public class DragItem : MonoBehaviour, IPointerDownHandler, IDragHandler
 
     public void Update()
     {
-        //TODO пофиксить пропаданаие с доски
         if (isHoverOnBoard && !isOnBoard)
         {
             transform.SetParent(Board.transform);
@@ -41,7 +40,7 @@ public class DragItem : MonoBehaviour, IPointerDownHandler, IDragHandler
             if (isOnLowerLayer)
                 transform.SetSiblingIndex(siblingsCount - 1);
             else
-                transform.SetSiblingIndex(1);
+                transform.SetSiblingIndex(2);
             isOnLowerLayer = !isOnLowerLayer;
         }
     }

@@ -14,6 +14,8 @@ public class CheckPhrase : MonoBehaviour
     public GameObject Screen;
     public GameObject ErrorText;
     public GameObject CheerPhrase;
+    public GameObject EmptyWordError;
+    public GameObject LevelCompletedText;
     private int ErrorsCount;
 
     public void CheckWords()
@@ -23,6 +25,12 @@ public class CheckPhrase : MonoBehaviour
         foreach (Transform word in WordsGroup.transform)
         {
             var text = word.transform.GetChild(0).gameObject.GetComponent<Text>();
+            if (text.text == "")
+            {
+                ErrorsCount = 0;
+                EmptyWordError.SetActive(true);
+                return;
+            }
             if (ExpectedWords[index] == text.text)
             {
                 text.color = Color.green;
@@ -35,13 +43,16 @@ public class CheckPhrase : MonoBehaviour
             }
             index++;
         }
-        //сделать кастомынй размер для каждой фразы
+        //TODO сделать кастомынй размер для каждой фразы
         if (correctCount == ExpectedWords.Count)
         {
             Screen.SetActive(true);
             var cheerText = CheerPhrase.GetComponent<Text>();
             if (ErrorsCount < 5)
             {
+                LevelCompletedText.GetComponent<Text>().text = "Уровень пройден!";
+                cheerText.text = "Старайся лучше!";
+                cheerText.fontSize = 80;
                 LeftStar.GetComponent<Image>().sprite = GoldenStar;
             }
 
@@ -60,6 +71,7 @@ public class CheckPhrase : MonoBehaviour
             }
 
             ErrorText.GetComponent<Text>().text = $"Ошибок: {ErrorsCount}";
+            ErrorsCount = 0;
         }
     }
 }
