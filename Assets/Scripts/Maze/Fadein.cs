@@ -1,21 +1,24 @@
+using System;
 using UnityEngine;
 using UnityEngine.UI;
-using UnityEngine.SceneManagement;
 
 public class Fadein : MonoBehaviour
 {
-    private Image fadeoutImage;
+    private Image fadeinImage;
     void Awake()
     {
-        fadeoutImage = GetComponent<Image>();
+        fadeinImage = GetComponent<Image>();
+    }
+
+    private void OnEnable()
+    {
+        var colours = fadeinImage.color;
+        fadeinImage.color = new Color(colours.r, colours.g, colours.b, 1);
     }
 
     void Update()
     {
-        var colours = fadeoutImage.color;
-        if (colours.a != 0)
-        {
-            fadeoutImage.color = new Color(colours.r, colours.g, colours.b, colours.a - 0.5f * Time.deltaTime);
-        }
+        var colours = fadeinImage.color;
+        fadeinImage.color = new Color(colours.r, colours.g, colours.b, colours.a - 0.5f * Time.deltaTime);
     }
 }

@@ -70,6 +70,7 @@ public class CheckPhrase : MonoBehaviour
                 cheerText.fontSize = 114;
             }
 
+            if (ErrorsCount == 0) return;
             ErrorText.GetComponent<Text>().text = $"Ошибок: {ErrorsCount}";
             ErrorsCount = 0;
         }

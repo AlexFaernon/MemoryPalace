@@ -1,9 +1,5 @@
 using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.Threading.Tasks;
 using UnityEngine;
-using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
 public class Fadeout : MonoBehaviour
@@ -14,12 +10,15 @@ public class Fadeout : MonoBehaviour
         fadeoutImage = GetComponent<Image>();
     }
 
+    private void OnEnable()
+    {
+        var colours = fadeoutImage.color;
+        fadeoutImage.color = new Color(colours.r, colours.g, colours.b, 0);
+    }
+
     void Update()
     {
         var colours = fadeoutImage.color;
-        if (Math.Abs(colours.a - 1) > 0.05F)
-        {
-            fadeoutImage.color = new Color(colours.r, colours.g, colours.b, colours.a + 0.5f * Time.deltaTime);
-        }
+        fadeoutImage.color = new Color(colours.r, colours.g, colours.b, colours.a + 0.5f * Time.deltaTime);
     }
 }

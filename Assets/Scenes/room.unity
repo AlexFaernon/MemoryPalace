@@ -5570,7 +5570,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u041E\u0448\u0438\u0431\u043E\u043A:"
+  m_Text: "\u041E\u0448\u0438\u0431\u043E\u043A \u043D\u0435\u0442!"
 --- !u!222 &490908748
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -10246,6 +10246,18 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: ClearWords, Assembly-CSharp
         m_MethodName: ClearWordsMethod
         m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 486525398}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine

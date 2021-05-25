@@ -27,8 +27,11 @@ public class SceneChanger : MonoBehaviour
             gameObject.SetActive(true);
         }
         SceneManager.LoadScene("maze", LoadSceneMode.Additive);
+        yield return new WaitWhile(() => !SceneManager.GetSceneByName("maze").isLoaded);
         yield return new WaitWhile(() => SceneManager.GetSceneByName("maze").isLoaded);
         FadeinObj.SetActive(true);
         FadeoutObj.SetActive(false);
+        yield return new WaitForSeconds(2);
+        FadeinObj.SetActive(false);
     }
 }
