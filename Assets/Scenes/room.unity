@@ -3155,6 +3155,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1619258400}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &268038493
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3692,7 +3704,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -100}
+  m_AnchoredPosition: {x: 0, y: -98}
   m_SizeDelta: {x: 271.757, y: 50.955}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &298765064
@@ -4750,7 +4762,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: -0.000047572, y: 36}
+  m_AnchoredPosition: {x: -0.000047572, y: 42.853996}
   m_SizeDelta: {x: 271.757, y: 50.955}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &391973090
@@ -5850,7 +5862,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: -0.000047572, y: 36}
+  m_AnchoredPosition: {x: 0, y: 40}
   m_SizeDelta: {x: 271.757, y: 50.955}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &516223712
@@ -6817,7 +6829,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: -0.000047572, y: 36}
+  m_AnchoredPosition: {x: 0, y: 45}
   m_SizeDelta: {x: 271.757, y: 50.955}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &559550496
@@ -10097,7 +10109,6 @@ GameObject:
   - component: {fileID: 1033805326}
   - component: {fileID: 1033805325}
   - component: {fileID: 1033805324}
-  - component: {fileID: 1033805323}
   m_Layer: 5
   m_Name: ReplayButton
   m_TagString: Untagged
@@ -10125,19 +10136,6 @@ RectTransform:
   m_AnchoredPosition: {x: 140, y: -177}
   m_SizeDelta: {x: 260.577, y: 93.614}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1033805323
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1033805321}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4cef309c886790f4fa4c8e303d49353b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  WordsGroup: {fileID: 952865461}
 --- !u!114 &1033805324
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10182,82 +10180,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 333506946}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 712383929}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 821736196}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1660546826}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1619258400}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1033805323}
-        m_TargetAssemblyTypeName: ClearWords, Assembly-CSharp
-        m_MethodName: ClearWordsMethod
+      - m_Target: {fileID: 2038023391}
+        m_TargetAssemblyTypeName: ReplayFade, Assembly-CSharp
+        m_MethodName: OnClick
         m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 486525398}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -10904,7 +10830,6 @@ MonoBehaviour:
   - {fileID: 712383929}
   - {fileID: 821736196}
   - {fileID: 1660546826}
-  - {fileID: 1619258400}
   - {fileID: 1562813732}
   Tutorial: {fileID: 1825943027}
   FadeoutObj: {fileID: 1353892723}
@@ -13171,7 +13096,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 0, y: 33}
+  m_AnchoredPosition: {x: 0, y: 42}
   m_SizeDelta: {x: 271.757, y: 50.955}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1454489413
@@ -13340,7 +13265,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: -0.000047572, y: 36}
+  m_AnchoredPosition: {x: 1.8917e-10, y: 46}
   m_SizeDelta: {x: 271.757, y: 50.955}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1472213489
@@ -14206,7 +14131,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: -0.000047572, y: 36}
+  m_AnchoredPosition: {x: 1.8917e-10, y: 41}
   m_SizeDelta: {x: 271.757, y: 50.955}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1621590228
@@ -16769,7 +16694,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 0, y: 33}
+  m_AnchoredPosition: {x: 0, y: 37}
   m_SizeDelta: {x: 271.757, y: 50.955}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1962566970
@@ -17452,6 +17377,7 @@ GameObject:
   - component: {fileID: 2038023388}
   - component: {fileID: 2038023390}
   - component: {fileID: 2038023389}
+  - component: {fileID: 2038023391}
   m_Layer: 5
   m_Name: Background
   m_TagString: Untagged
@@ -17516,6 +17442,28 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2038023387}
   m_CullTransparentMesh: 1
+--- !u!114 &2038023391
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2038023387}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ddbdae6df5e0be64b8dd4b002d519410, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  FadeoutObj: {fileID: 1353892723}
+  FadeinObj: {fileID: 516708975}
+  WordsGroup: {fileID: 952865461}
+  ToDeactivate:
+  - {fileID: 333506946}
+  - {fileID: 712383929}
+  - {fileID: 821736196}
+  - {fileID: 1660546826}
+  - {fileID: 1619258400}
+  - {fileID: 486525398}
 --- !u!1 &2043498681
 GameObject:
   m_ObjectHideFlags: 0

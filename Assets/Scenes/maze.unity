@@ -155,7 +155,7 @@ RectTransform:
   - {fileID: 1349239594}
   - {fileID: 536129743}
   m_Father: {fileID: 1020144653}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -869,8 +869,8 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 2008488570}
-  - {fileID: 1692455773}
   - {fileID: 324516175}
+  - {fileID: 1692455773}
   - {fileID: 332008709}
   - {fileID: 379389677}
   m_Father: {fileID: 0}
@@ -1508,7 +1508,7 @@ RectTransform:
   - {fileID: 1985281237}
   - {fileID: 1307283288}
   m_Father: {fileID: 1020144653}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1914,7 +1914,7 @@ SphereCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 5
+  m_Radius: 3.5
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &2106690011
 MeshRenderer:
