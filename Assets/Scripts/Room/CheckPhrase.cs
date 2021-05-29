@@ -22,6 +22,7 @@ public class CheckPhrase : MonoBehaviour
     {
         var index = 0;
         var correctCount = 0;
+
         foreach (Transform word in WordsGroup.transform)
         {
             var text = word.transform.GetChild(0).gameObject.GetComponent<Text>();
@@ -31,16 +32,21 @@ public class CheckPhrase : MonoBehaviour
                 EmptyWordError.SetActive(true);
                 return;
             }
+        }
+
+        foreach (Transform word in WordsGroup.transform)
+        {
+            var text = word.transform.GetChild(0).gameObject.GetComponent<Text>();
             if (ExpectedWords[index] == text.text)
             {
-                text.color = Color.green;
+                text.color = new Color(0.09027679f, 0.754717f, 0);
                 correctCount++;
             }
             else
             {
-                text.color = Color.red;
+                text.color = new Color(0.6037736f, 0.04914969f, 0.01936628f);
                 ErrorsCount++;
-            }
+            }       
             index++;
         }
         //TODO сделать кастомынй размер для каждой фразы
