@@ -39,12 +39,12 @@ public class CheckPhrase : MonoBehaviour
             var text = word.transform.GetChild(0).gameObject.GetComponent<Text>();
             if (ExpectedWords[index] == text.text)
             {
-                text.color = new Color(0.09027679f, 0.754717f, 0);
+                text.color = new Color(0.4f, 0.2f, 0.2f);
                 correctCount++;
             }
             else
             {
-                text.color = new Color(0.6037736f, 0.04914969f, 0.01936628f);
+                text.color = new Color(0.8018868f, 0, 0);
                 ErrorsCount++;
             }       
             index++;
