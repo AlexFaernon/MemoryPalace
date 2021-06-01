@@ -159,7 +159,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 190, y: -5.6718445}
+  m_AnchoredPosition: {x: 190, y: -280}
   m_SizeDelta: {x: 111.585, y: 53.468}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2294431
@@ -177,6 +177,8 @@ MonoBehaviour:
   canvas: {fileID: 378220959}
   Board: {fileID: 1316143779}
   Room: {fileID: 504201263}
+  halfHeight: 0
+  halfWidth: 0
 --- !u!114 &2294432
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1932,7 +1934,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -438, y: -5.671875}
+  m_AnchoredPosition: {x: -438, y: -280}
   m_SizeDelta: {x: 76, y: 76}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &215387445
@@ -1988,6 +1990,8 @@ MonoBehaviour:
   canvas: {fileID: 378220959}
   Board: {fileID: 1316143779}
   Room: {fileID: 504201263}
+  halfHeight: 0
+  halfWidth: 0
 --- !u!61 &215387448
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4435,7 +4439,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_UiScaleMode: 1
-  m_ReferencePixelsPerUnit: 100
+  m_ReferencePixelsPerUnit: 1
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 1280, y: 720}
   m_ScreenMatchMode: 0
@@ -4456,7 +4460,7 @@ Canvas:
   serializedVersion: 3
   m_RenderMode: 1
   m_Camera: {fileID: 1171073649}
-  m_PlaneDistance: 100
+  m_PlaneDistance: 10
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
   m_OverrideSorting: 0
@@ -4464,7 +4468,7 @@ Canvas:
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_TargetDisplay: 0
 --- !u!224 &378220960
 RectTransform:
@@ -6636,7 +6640,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.00030327, y: -5.6718445}
+  m_AnchoredPosition: {x: 0.00030327, y: -280}
   m_SizeDelta: {x: 47.82, y: 49.432}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &539832060
@@ -6654,6 +6658,8 @@ MonoBehaviour:
   canvas: {fileID: 378220959}
   Board: {fileID: 1316143779}
   Room: {fileID: 504201263}
+  halfHeight: 0
+  halfWidth: 0
 --- !u!114 &539832061
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9936,7 +9942,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -232, y: -5.6718445}
+  m_AnchoredPosition: {x: -232, y: -280}
   m_SizeDelta: {x: 109.213, y: 50.279}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1021080186
@@ -9954,6 +9960,8 @@ MonoBehaviour:
   canvas: {fileID: 378220959}
   Board: {fileID: 1316143779}
   Room: {fileID: 504201263}
+  halfHeight: 0
+  halfWidth: 0
 --- !u!114 &1021080187
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12376,7 +12384,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -284.3281}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1321651005
@@ -15969,9 +15977,11 @@ GameObject:
   - component: {fileID: 1861807615}
   - component: {fileID: 1861807617}
   - component: {fileID: 1861807616}
+  - component: {fileID: 1861807619}
+  - component: {fileID: 1861807618}
   m_Layer: 5
   m_Name: phrasePanel
-  m_TagString: Untagged
+  m_TagString: board
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16034,6 +16044,53 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1861807614}
   m_CullTransparentMesh: 1
+--- !u!50 &1861807618
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1861807614}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!61 &1861807619
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1861807614}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 981.242, y: 100}
+  m_EdgeRadius: 0
 --- !u!1 &1870649831
 GameObject:
   m_ObjectHideFlags: 0
