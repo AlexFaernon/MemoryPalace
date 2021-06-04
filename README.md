@@ -36,9 +36,8 @@ Unity 3D, C#, Adobe Photoshop, Figma.
 
 <h3>Порядок установки:</h3>
 
-1. Проверить системные требования ПК
-2. Перейти по ссылке https://alexfaernon.itch.io/memory-palace
-3. Скачать архив и распаковать его
+1. Перейти по ссылке https://alexfaernon.itch.io/memory-palace
+2. Скачать архив и распаковать его
 3. Запустить файл "Memory Palace.exe"
 
 <h3>Структура приложения:</h3>
