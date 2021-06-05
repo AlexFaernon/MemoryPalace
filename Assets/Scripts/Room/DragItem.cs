@@ -14,6 +14,8 @@ public class DragItem : MonoBehaviour, IPointerDownHandler, IDragHandler, IEndDr
     public float halfHeight;
     public float halfWidth;
     private bool isInScreen = true;
+    private const int UpBorder = 100;
+    private const int SideBorder = 150;
 
     private void Start()
     {
@@ -56,12 +58,13 @@ public class DragItem : MonoBehaviour, IPointerDownHandler, IDragHandler, IEndDr
         if (isInScreen && eventData.button == PointerEventData.InputButton.Left)
         {
             var nextPos = rectTransform.anchoredPosition + eventData.delta / canvas.scaleFactor;
-            if (nextPos.x < -halfWidth || nextPos.x > halfWidth || nextPos.y < -halfHeight || nextPos.y > halfHeight)
+            if (nextPos.x < -halfWidth + SideBorder || nextPos.x > halfWidth - SideBorder ||
+                nextPos.y < -halfHeight || nextPos.y > halfHeight - UpBorder)
             {
                 isInScreen = false;
             }
-            nextPos.x = Mathf.Clamp(nextPos.x, -halfWidth, halfWidth);
-            nextPos.y = Mathf.Clamp(nextPos.y, -halfHeight, halfHeight);
+            nextPos.x = Mathf.Clamp(nextPos.x, -halfWidth + SideBorder, halfWidth - SideBorder);
+            nextPos.y = Mathf.Clamp(nextPos.y, -halfHeight, halfHeight - UpBorder);
             rectTransform.anchoredPosition = nextPos;
         }
     }
