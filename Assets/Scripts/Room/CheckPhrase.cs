@@ -49,7 +49,7 @@ public class CheckPhrase : MonoBehaviour
             }       
             index++;
         }
-        //TODO сделать кастомынй размер для каждой фразы
+        
         if (correctCount == ExpectedWords.Count)
         {
             Screen.SetActive(true);
@@ -75,8 +75,7 @@ public class CheckPhrase : MonoBehaviour
                 cheerText.text = "Молодец!";
                 cheerText.fontSize = 114;
             }
-
-            if (ErrorsCount == 0) return;
+            
             ErrorText.GetComponent<Text>().text = $"Ошибок: {ErrorsCount}";
             ErrorsCount = 0;
         }
