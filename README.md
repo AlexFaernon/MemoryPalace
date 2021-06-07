@@ -42,4 +42,8 @@ Unity 3D, C#, Adobe Photoshop, Figma.
 
 <h3>Структура приложения:</h3>
 
-*meow*
+1. Assets/Scripts - папка с используемыми скриптами
+2. Assets/Scenes - папка с импользуемыми сценами
+3. Assets/Materials - папка с импользуемыми игровыми обьектами
+4. Assets/Sprites - папка с используемыми изображениями
+5. Documentation - Документация проекта
